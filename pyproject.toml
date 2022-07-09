@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "spanpanel"
+version = "0.1.0"
+description = "Interact with Span Smart Electrical Panel"
+authors = ["Alex Norell <alex@norell.co>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
